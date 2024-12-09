@@ -14,8 +14,8 @@ export default interface User {
     country: string;
     postcode: string | number;
     coordinates: {
-      latitude: string;
-      longitude: string;
+      latitude: number;
+      longitude: number;
     };
   };
   email: string;
